@@ -1,10 +1,5 @@
 n = int(input())
 height = []
 if n >= 100 & n >= 2:
-    for i in range(n):
+    for i in  range(1, (n+1)):
         print(i)
-
-else:
-    print('this amount of players are not valid')
-
-
