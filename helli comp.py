@@ -1,10 +1,11 @@
 n = int(input())
 height = []
-if n >= 100 & n >= 2:
+first = 0
+if n <= 100 & n >= 2:
     for i in range(n):
-        print(i)
-
-else:
-    print('this amount of players are not valid')
-
-
+        num = int(input())
+        height.append(num)
+    for j in height:
+        if j > first:
+            first = j
+print(first)
