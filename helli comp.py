@@ -4,6 +4,6 @@ first = 0
 for i in range(n):
     num = int(input())
     height.append(num)
-height2 = height.sort()
-answer = height2[1] + 1
+height.sort()
+answer = height[-2]
 print(answer)
