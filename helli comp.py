@@ -1,9 +1,9 @@
 n = int(input())
 height = []
-if n >= 100 & n >= 2:
-    for i in range(n):
-        i = int(input('Enter :'))
-        height.append(i)
-
-height.sort()
-print(height[1])
+first = 0
+for i in range(n):
+    num = int(input())
+    height.append(num)
+height2 = height.sort()
+answer = height2[1] + 1
+print(answer)
