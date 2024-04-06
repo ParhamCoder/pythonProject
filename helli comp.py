@@ -9,3 +9,5 @@ else:
             s = i
     for i in range(1, (n+1)) :
         if s>i>m :
+            m = i
+print(m)
