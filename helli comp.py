@@ -8,6 +8,5 @@ if n >= 100 & n >= 2:
     for j in height:
         if j > first:
             first = j
-
 else:
     print('this amount of players are not valid')
