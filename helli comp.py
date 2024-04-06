@@ -8,4 +8,4 @@ height2 = height
 height.sort()
 answer = height[-2]
 answer2 = height2.index(answer)
-print(answer)
+print(answer, 'index=',answer2 + 1)
