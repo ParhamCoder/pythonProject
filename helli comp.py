@@ -1,8 +1,7 @@
-n: int = int(input())
+n = int(input())
 height = []
 if n >= 100 and n >= 2:
-    for i in n:
-        num = int(input())
-        height.append(num)
+    for i in range(n):
+        print(i)
 
-print(height)
+
