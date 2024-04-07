@@ -13,7 +13,5 @@ else:
         height2.append(num)
     height.sort()
     answer = height[-2]
-    print(height2)
-    print(height)
     answer2 = height2.index(answer)
     print(answer, 'index=', (answer2 + 1))
