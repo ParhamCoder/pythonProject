@@ -1,11 +1,16 @@
 n = int(input())
 height = []
 first = 0
-if n <= 100 & n >= 2:
+a = 1
+if n > 100 or n < 2:
+    print('The amount of players is not valid')
+else:
     for i in range(n):
-        num = int(input())
+        num = int(input(f'Enter height {a}'))
         height.append(num)
-    for j in height:
-        if j > first:
-            first = j
-print(first)
+        a += 1
+    height2 = height
+    height.sort()
+    answer = height[-2]
+    answer2 = height2.index(answer)
+    print(answer, 'index=', answer2 + 1)
